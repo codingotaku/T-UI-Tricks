@@ -1,5 +1,5 @@
 # T-UI-Tricks
-Some tricks that I found while using T-UI and Termux 
+Some tricks that I found while using [T-UI ConsoleLauncher](https://github.com/fAndreuzzi/TUI-ConsoleLauncher) and [Termux](https://github.com/termux/termux-app) 
 
 ## Using Termux Commands inside T-UI
 Even though there is a [TUI-Expert](https://github.com/v1nc/TUI-Expert) + [Termux Exported](https://github.com/v1nc/termux-app/) available for this,  
@@ -17,6 +17,10 @@ so you can just add an alias called init
 ```bash
 alias --add init=export PATH=$PATH:/data/data/com.termux/files/usr/bin/
 ```
+
+if T-UI can be configured to run commands after boot then this would be close to what everyone wants.
+(it may not be fool proof, but I like the idea of accessing termux commands from everywhere)
+
 ## Add shortcut to webpages
 In normal launchers you can add shortcut to webpages which almost all browsers supports.  
 but T-UI has alias, you can create an alias to open webpages with
